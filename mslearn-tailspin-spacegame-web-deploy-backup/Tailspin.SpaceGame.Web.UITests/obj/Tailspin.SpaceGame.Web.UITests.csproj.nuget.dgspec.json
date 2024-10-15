@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/cuca/devops/mslearn-tailspin-spacegame-web-deploy/Tailspin.SpaceGame.Web.UITests/Tailspin.SpaceGame.Web.UITests.csproj": {}
+  },
+  "projects": {
+    "/home/cuca/devops/mslearn-tailspin-spacegame-web-deploy/Tailspin.SpaceGame.Web.UITests/Tailspin.SpaceGame.Web.UITests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cuca/devops/mslearn-tailspin-spacegame-web-deploy/Tailspin.SpaceGame.Web.UITests/Tailspin.SpaceGame.Web.UITests.csproj",
+        "projectName": "Tailspin.SpaceGame.Web.UITests",
+        "projectPath": "/home/cuca/devops/mslearn-tailspin-spacegame-web-deploy/Tailspin.SpaceGame.Web.UITests/Tailspin.SpaceGame.Web.UITests.csproj",
+        "packagesPath": "/home/cuca/.nuget/packages/",
+        "outputPath": "/home/cuca/devops/mslearn-tailspin-spacegame-web-deploy/Tailspin.SpaceGame.Web.UITests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cuca/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Edge.SeleniumTools": {
+              "target": "Package",
+              "version": "[3.141.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[91.0.4472.10100, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.29.1, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
