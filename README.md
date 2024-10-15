@@ -1,2 +1,2 @@
 # mslearn
-Directory for mslearn
+Directory for mslearn lessons.
